@@ -1,0 +1,120 @@
+*{
+   font-family: 'fake hope',Arial, sans-serif;
+  
+}
+/* Main Container Style */
+#main-container{
+    height: max-content;
+    width: 214px;
+    border: 2px  double darkgray;
+    background-color: black;
+    border-radius: 2px;
+    float:left;
+   
+}
+
+/* Display Style */
+#screen{
+    height: 70px;
+    width:202.3px;
+    display: block;
+    background-color:lightgrey;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    resize: none;
+    text-align: right;
+    color: blue;
+    font-size:40px;
+}
+/* Partiton height */
+.partitions{
+    height: 200px;
+    margin-right:2px;
+    margin-left: 2.4px;
+    margin-bottom: 4px;
+}
+
+#left-part ,#operation-part {
+    float: left;
+   
+}
+
+#left-part div{
+    max-block-size: 40px;
+}
+#left-part input ,#left-part button{
+    width: 50px; 
+    height: 40px;   
+    font-size:25px;
+    border-radius: 40%;
+}
+/* Middle Part  */
+#operation-part div{
+    max-block-size: 40px;
+}
+#operation-part input ,#operation-part button{
+    width: 50px;
+    height: 40px;
+    font-size:25px;
+    border-radius: 40%;
+}
+/*  */
+#del_button{
+    background-color: red;
+    color:white
+}
+#equal_button{
+    background-color: lightblue;
+    color:white
+}
+
+#add_button,#div_button,#mult_button,#sub_button,#mod_button{
+    background-color: lightgreen;
+    color:white
+}
+
+/*  for Lottery Game */
+#secDiv{
+    float:left;
+    background-color: turquoise;
+    padding: 5px;
+    margin-left:2.5px
+}
+
+#leftDiv input[type="numeric"]{
+    height:50px;
+    width: 120px;
+    color:rgb(rgb(137, 183, 243), green, blue);
+    font-size: larger;
+    text-align: center;
+}
+#leftDiv button {
+    padding: 10px;
+    margin-top: 5px;
+}
+#leftDiv input[type="reset"]{
+    padding: 10px;
+    margin-top: 5px;
+    margin-right:19px;
+} 
+
+#rightDiv{
+    float:left;
+    margin: 2px;
+    height: 108px;
+    width: 135px;
+    
+}
+
+
+ #leftDiv{
+    float:left;
+    max-width: 125px;
+    padding: 5px;
+}
+
+#secDiv hr{
+    margin-top: -10px;
+}
